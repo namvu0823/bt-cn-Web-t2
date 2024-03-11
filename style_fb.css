@@ -1,0 +1,122 @@
+body{
+    width: 450px;
+    height:580px;
+    margin:0 auto;
+    box-shadow: 0px 0px 10px 5px rgba(180, 179, 179, 0.5);
+    
+    background-color: white;
+    padding :20px;
+    border-radius: 10px;
+}
+ .blurry{
+    width:450px;
+ }
+.layer_name{
+    display: flex; 
+    margin-right: 50px;
+}
+.name{
+    width:211px;
+    height:30px;
+    margin-right: 4px;
+    margin-bottom: 10px;
+    background-color: rgb(236, 233, 233);
+    border-radius: 5px;
+}
+.layer_mail{
+    width:450px;
+}
+.mail{
+    width:439px;
+    height:30px;
+    margin-bottom: 10px;
+    background-color: rgb(236, 233, 233);
+    border-radius: 10px;
+}
+.layer_date{
+    display: flex;
+}
+.date{
+    width:141px;
+    margin-right: 6px; 
+    box-sizing: border-box;
+    height:30px;
+    border-radius: 5px;
+    
+}
+
+.layer_gender{
+    display:flex;
+}
+.gender_box {
+    text-align: center;
+    display: inline-block;
+    width:130px;
+    border: 1px solid;
+    padding: 5px;
+    margin-right: 5px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.button{
+    text-align: center;
+}
+.sign_up{
+    width: 200px; 
+    height: 40px;
+    font-size: 18px; 
+    color: white;
+    background-color: rgb(7, 188, 7);
+    border-radius: 5px;
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+h2{
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+h3{
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+label{
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+input{
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight:normal;
+}
+select{
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight:normal;
+}
+.gender{
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight:normal;
+}
+
+#error_message {
+    display: none; /* Ẩn hộp thông báo ban đầu */
+    position: fixed;
+    top: 10px; /* Điều chỉnh vị trí từ trên xuống */
+    left: 50%; /* Đưa phần tử về giữa trang theo chiều ngang */
+    transform: translateX(-50%); /* Dịch chuyển phần tử sang trái 50% để căn giữa */
+    background-color: #ffebeb; /* Màu nền của hộp thông báo */
+    color: #ff0000; /* Màu chữ */
+    border: 1px solid #ff0000; 
+    padding: 10px; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+    z-index: 9999; /* Đảm bảo phần tử hiển thị trên các phần tử khác */
+}

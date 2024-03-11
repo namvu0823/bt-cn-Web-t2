@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="style_fb.css">
+    
+    <title>Document</title>
+</head>
+<body>
+   
+    <h1>Sign up</h1>
+    <h2>It's quick and easy</h2>
+    <hr class="blurry">
+
+    <form action="layer_name">
+        <input type="text" id="textbox_name" placeholder="  First name" class="name">
+        <input type="text" id="textbox_surname" placeholder="  Surname" class="name">    
+    </form>
+    <div id="error_message"></div>
+    <form action="layer_mail">
+        <input type="text"id="textbox_mobile_email" placeholder="  Mobile number or email address" class="mail">
+        <input type="text"id="textbox_password" placeholder="  New password" class="mail">    
+    </form>
+    <div id="error_message"></div>
+    <label >Date of birth ?</label>
+
+    <form action ="layer_date">
+    
+        <select name="day" id="day" class="date" >
+            <option value=""></option>
+        </select>
+    
+        <select name="month" id="month" class="date">
+            <option value=""></option>
+        </select>
+    
+        <select name="year" id="year" class="date">
+            <option value=""></option>
+        </select>
+    
+    </form>
+    <div id="error_message"></div>
+    
+    <label>Gender ?</label>
+   
+    <form action="layer_gender">
+        <div class="gender_box">
+            <label for="female" class="gender">
+                Female
+                <input type="radio" id="female" name="gender" value="female" >
+            </label>
+        </div>
+        
+        <div class="gender_box">
+            <label for="male" class="gender">
+                Male
+                <input type="radio" id="male" name="gender" value="male">
+            </label>
+        </div>
+        
+        <div class="gender_box">
+            <label for="Custom" class="gender">
+                Other
+                <input type="radio" id="Custom" name="gender" value="Custom">
+    
+            </label>
+        </div>
+    </form>
+    <div id="error_message"></div>
+    <h3>People who use our service may have uploaded your contact information to Facebook. Learn more.</h3>
+    <h3>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</h3>
+
+    <div class="button">
+        <input type="button" value="Sign up" class="sign_up"> 
+    </div>
+    <script src="demo.js"></script>
+    <script src="check.js"></script>
+
+</body>
+</html>
